@@ -1,0 +1,35 @@
+{
+  "name": "@tinyd/usescreensize",
+  "version": "1.0.0",
+  "description": "screen size hook",
+  "main": "./dist/useScreenSize.js",
+  "types": "./dist/main.d.ts",
+  "repository": "https://github.com/thetinydots/use-screen-size.git",
+  "author": "Virat Patel <21.virat@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.45.2",
+    "rollup-plugin-dts": "^3.0.1",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.4"
+  }
+}
